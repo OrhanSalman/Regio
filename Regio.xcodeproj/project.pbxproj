@@ -21,7 +21,6 @@
 		22B1C7B229CB96FF00687D44 /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C7B129CB96FF00687D44 /* ProfilView.swift */; };
 		22B1C7B429CB991500687D44 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C7B329CB991500687D44 /* PopUpView.swift */; };
 		22B1C7B629CBE39700687D44 /* BadgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C7B529CBE39700687D44 /* BadgesView.swift */; };
-		22B1C7B829CF5E2300687D44 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C7B729CF5E2200687D44 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +39,6 @@
 		22B1C7B129CB96FF00687D44 /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
 		22B1C7B329CB991500687D44 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		22B1C7B529CBE39700687D44 /* BadgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesView.swift; sourceTree = "<group>"; };
-		22B1C7B729CF5E2200687D44 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +76,6 @@
 				22B1C78329C8D14700687D44 /* RegioApp.swift */,
 				22B1C78729C8D14800687D44 /* Assets.xcassets */,
 				22B1C78929C8D14800687D44 /* Preview Content */,
-				22B1C7B729CF5E2200687D44 /* TestView.swift */,
 			);
 			path = Regio;
 			sourceTree = "<group>";
@@ -213,7 +210,6 @@
 				22B1C7AC29C8EEB000687D44 /* OnboardingView.swift in Sources */,
 				22B1C7A429C8ED5000687D44 /* NearByQuestMap.swift in Sources */,
 				22B1C7B429CB991500687D44 /* PopUpView.swift in Sources */,
-				22B1C7B829CF5E2300687D44 /* TestView.swift in Sources */,
 				22B1C79E29C8ECF500687D44 /* SuggestionAndSelectionPhase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
