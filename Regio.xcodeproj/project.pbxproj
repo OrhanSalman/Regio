@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		22B1C78429C8D14700687D44 /* RegioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C78329C8D14700687D44 /* RegioApp.swift */; };
-		22B1C78629C8D14700687D44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C78529C8D14700687D44 /* ContentView.swift */; };
 		22B1C78829C8D14800687D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B1C78729C8D14800687D44 /* Assets.xcassets */; };
 		22B1C78B29C8D14800687D44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B1C78A29C8D14800687D44 /* Preview Assets.xcassets */; };
+		22B1C79229C8E26900687D44 /* OnboardingContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C79129C8E26900687D44 /* OnboardingContents.swift */; };
+		22B1C79829C8ECD700687D44 /* OrientationPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C79729C8ECD700687D44 /* OrientationPhase.swift */; };
+		22B1C79A29C8ECE600687D44 /* DiscoveryPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C79929C8ECE600687D44 /* DiscoveryPhase.swift */; };
+		22B1C79E29C8ECF500687D44 /* SuggestionAndSelectionPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C79D29C8ECF500687D44 /* SuggestionAndSelectionPhase.swift */; };
+		22B1C7A229C8ED4700687D44 /* InitialApplicationPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C7A129C8ED4700687D44 /* InitialApplicationPhase.swift */; };
+		22B1C7A429C8ED5000687D44 /* NearByQuestMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C7A329C8ED5000687D44 /* NearByQuestMap.swift */; };
+		22B1C7AC29C8EEB000687D44 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C7AB29C8EEB000687D44 /* OnboardingView.swift */; };
+		22B1C7B029CB95F500687D44 /* NotificationNumLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C7AF29CB95F500687D44 /* NotificationNumLabel.swift */; };
+		22B1C7B229CB96FF00687D44 /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C7B129CB96FF00687D44 /* ProfilView.swift */; };
+		22B1C7B429CB991500687D44 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C7B329CB991500687D44 /* PopUpView.swift */; };
+		22B1C7B629CBE39700687D44 /* BadgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C7B529CBE39700687D44 /* BadgesView.swift */; };
+		22B1C7B829CF5E2300687D44 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C7B729CF5E2200687D44 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22B1C78029C8D14700687D44 /* Regio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Regio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B1C78329C8D14700687D44 /* RegioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegioApp.swift; sourceTree = "<group>"; };
-		22B1C78529C8D14700687D44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22B1C78729C8D14800687D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22B1C78A29C8D14800687D44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22B1C79129C8E26900687D44 /* OnboardingContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContents.swift; sourceTree = "<group>"; };
+		22B1C79729C8ECD700687D44 /* OrientationPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationPhase.swift; sourceTree = "<group>"; };
+		22B1C79929C8ECE600687D44 /* DiscoveryPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryPhase.swift; sourceTree = "<group>"; };
+		22B1C79D29C8ECF500687D44 /* SuggestionAndSelectionPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionAndSelectionPhase.swift; sourceTree = "<group>"; };
+		22B1C7A129C8ED4700687D44 /* InitialApplicationPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialApplicationPhase.swift; sourceTree = "<group>"; };
+		22B1C7A329C8ED5000687D44 /* NearByQuestMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByQuestMap.swift; sourceTree = "<group>"; };
+		22B1C7AB29C8EEB000687D44 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		22B1C7AF29CB95F500687D44 /* NotificationNumLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNumLabel.swift; sourceTree = "<group>"; };
+		22B1C7B129CB96FF00687D44 /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
+		22B1C7B329CB991500687D44 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		22B1C7B529CBE39700687D44 /* BadgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesView.swift; sourceTree = "<group>"; };
+		22B1C7B729CF5E2200687D44 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +73,12 @@
 		22B1C78229C8D14700687D44 /* Regio */ = {
 			isa = PBXGroup;
 			children = (
+				22B1C7A929C8EE9700687D44 /* SubViews */,
+				22B1C79F29C8ED1100687D44 /* MainViews */,
 				22B1C78329C8D14700687D44 /* RegioApp.swift */,
-				22B1C78529C8D14700687D44 /* ContentView.swift */,
 				22B1C78729C8D14800687D44 /* Assets.xcassets */,
 				22B1C78929C8D14800687D44 /* Preview Content */,
+				22B1C7B729CF5E2200687D44 /* TestView.swift */,
 			);
 			path = Regio;
 			sourceTree = "<group>";
@@ -65,6 +89,47 @@
 				22B1C78A29C8D14800687D44 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22B1C79F29C8ED1100687D44 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				22B1C7A029C8ED1A00687D44 /* Phases */,
+				22B1C7B129CB96FF00687D44 /* ProfilView.swift */,
+				22B1C7B529CBE39700687D44 /* BadgesView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		22B1C7A029C8ED1A00687D44 /* Phases */ = {
+			isa = PBXGroup;
+			children = (
+				22B1C79929C8ECE600687D44 /* DiscoveryPhase.swift */,
+				22B1C79729C8ECD700687D44 /* OrientationPhase.swift */,
+				22B1C79D29C8ECF500687D44 /* SuggestionAndSelectionPhase.swift */,
+				22B1C7A129C8ED4700687D44 /* InitialApplicationPhase.swift */,
+				22B1C7A329C8ED5000687D44 /* NearByQuestMap.swift */,
+			);
+			path = Phases;
+			sourceTree = "<group>";
+		};
+		22B1C7A929C8EE9700687D44 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				22B1C7AA29C8EEA200687D44 /* Onboarding */,
+				22B1C7AF29CB95F500687D44 /* NotificationNumLabel.swift */,
+				22B1C7B329CB991500687D44 /* PopUpView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		22B1C7AA29C8EEA200687D44 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				22B1C79129C8E26900687D44 /* OnboardingContents.swift */,
+				22B1C7AB29C8EEB000687D44 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22B1C78629C8D14700687D44 /* ContentView.swift in Sources */,
+				22B1C79A29C8ECE600687D44 /* DiscoveryPhase.swift in Sources */,
+				22B1C79229C8E26900687D44 /* OnboardingContents.swift in Sources */,
+				22B1C7B229CB96FF00687D44 /* ProfilView.swift in Sources */,
+				22B1C7B029CB95F500687D44 /* NotificationNumLabel.swift in Sources */,
+				22B1C7B629CBE39700687D44 /* BadgesView.swift in Sources */,
+				22B1C7A229C8ED4700687D44 /* InitialApplicationPhase.swift in Sources */,
+				22B1C79829C8ECD700687D44 /* OrientationPhase.swift in Sources */,
 				22B1C78429C8D14700687D44 /* RegioApp.swift in Sources */,
+				22B1C7AC29C8EEB000687D44 /* OnboardingView.swift in Sources */,
+				22B1C7A429C8ED5000687D44 /* NearByQuestMap.swift in Sources */,
+				22B1C7B429CB991500687D44 /* PopUpView.swift in Sources */,
+				22B1C7B829CF5E2300687D44 /* TestView.swift in Sources */,
+				22B1C79E29C8ECF500687D44 /* SuggestionAndSelectionPhase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
